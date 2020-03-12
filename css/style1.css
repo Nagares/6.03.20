@@ -1,0 +1,37 @@
+
+[text]{
+	font-weight: bolder;
+}
+
+[editable] {
+	font-weight:  normal;
+	border-bottom: dashed 1px #428bca;
+	color: #428bca;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+[editable]:hover {
+	text-decoration: none;
+}
+
+
+[editable]:empty::before{
+	content: 'Not set';
+	color: #dd1144;
+	font-style: italic;
+}
+
+button {
+	margin-left: 5px;
+
+}
+.row{
+	margin-left: 0;
+}
+label {
+	margin-bottom: 0;
+}
+div .form-group{
+	margin-bottom: 0;
+}
